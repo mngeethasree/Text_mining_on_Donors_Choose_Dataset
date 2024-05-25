@@ -9,6 +9,6 @@ This project aims to predict if a project proposal submitted by a teacher will b
 
 | Feature | Description |
 |----------|:--------:|
-| Data 1   | Data 2   |
-| Data 4   | Data 5   |
-| Data 7   | Data 8   |
+| project_id   | unique identifier   |
+| project_title   | title of project   |
+| project_grade_category   | Grade level of students for which the project is targeted   |
