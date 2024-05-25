@@ -7,7 +7,7 @@ DonorsChoose.org receives hundreds of thousands of project proposals each year f
 
 This project aims to predict if a project proposal submitted by a teacher will be approved, considering information regarding project descriptions, resource summaries, additional metadata about project, teacher and school.
 
-| Column 1 | Column 2 |
+| Feature | Description |
 |----------|:--------:|
 | Data 1   | Data 2   |
 | Data 4   | Data 5   |
