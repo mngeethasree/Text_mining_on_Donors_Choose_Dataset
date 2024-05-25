@@ -12,3 +12,4 @@ This project aims to predict if a project proposal submitted by a teacher will b
 | project_id   | unique identifier   |
 | project_title   | title of project   |
 | project_grade_category   | Grade level of students for which the project is targeted   |
+| project_subject_categories   | Subcategories for each project   |
