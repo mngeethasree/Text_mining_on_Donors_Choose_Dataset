@@ -149,6 +149,8 @@ F1 Score for TfIdf Encoding: 0.9136
 | BoW   | Multinomial NB   | 10   | 0.688   | 0.823   |
 | TfIdf   | Nultinomial NB   | 1   | 0.668   | 0.914   |
 
+While Roc AUC for BoW encoding is only slightly higher than TfIdf encoding, F1 score for TfIdf far exceeds F1 score of BoW. This is expected as TfIdf gives less importance to words that are frequenctly appearing in the corpus while BoW only accounts for frequency of terms appearing in a particular document without considering context of word in entire corpus.
+
 
 
 
