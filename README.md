@@ -61,9 +61,36 @@ No significant difference in project costs between Approved and Rejected Project
    a. Using a custom stop word list to remove words that are of no value <br>
    b. Decontracting phrases to actual phrases. For example, after decontraction of a word like **I'll**, we obtain **I will** <br>
 
-**Numerical features:**
+**Numerical features:** <br>
 Numerical features like price and quantity are available in 'resources.csv' which need to first aggregated by resource_id before merging with preprocessed text data. <br>
 Standard scaler and MinMax scaler are then used to normalize these numerical values. <br>
+
+## Make Data ready for Modeling:
+
+**1. Train Test Split:** Split entire dataset into train and test sets with ratio 1:2 (33.33% of overall data is sampled under test set). Use Stratified split to ensure the class distribution is similar across both train and test splits.
+
+**2. Encoding text to Numerical values:**
+In order to make the text data ready for modeling, we have to convert it to numerical values that can be fed as training data to the model. Two types of encoding techniques are used to acheieve this conversion. <br>
+
+**a. Bag of Words Encoding(BoW):** <br>
+Bag of words technique creates a vocabulary of all unique words occuring in all the documents in the training set. An encoded representation is then created to represent the number of times a word appears in a document. One of the main disadvantages of BoW technique is that it ignores the order in which words appear in a sentence, hence completely ignoring the context in which a particular word is used. <br>
+BoW is acheived using CountVectorizer in sklearn. <br>
+
+**b. TfIdf Encoding:** <br>
+Tfidf stands for Term Frequency Inverse Document Frequency. It is a measure of importance of a word in a document thats a part of collection or corpus of documents, adjusted for the fact that some words appear  more frequently in general and hence hold less value. <br>
+
+Term frequency(**TF**) of a word is calculated as number of times a word appears in a document. It indicates the importance of a word in a specific document. <br>
+Inverse document frequency(**IDF**) of a term is calculated as number of documents divided by total number of documents in the corpus containing the term 't'. This number as it is shoots up as number of documents in the corpus increases. Hence it is measured on log scale to keep the values at reasonable ranges. <br>
+
+TfIdf encoding is achieved using TfidfVectorizer from sklearn. <br>
+
+Since it is possible for a term to not appear in the corpus at all, leading to denominator zeroing out. Hence a slight correction is made by adding 1 to both numerator and denominator in the formula. <br>
+
+<img width="185" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/9905fae9-b4ff-4871-b3ab-85f4050c08f6"> <br>
+
+
+
+
 
 
 
