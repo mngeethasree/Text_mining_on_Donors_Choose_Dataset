@@ -53,6 +53,18 @@ Approved proposals have slightly longer project titles than Rejected proposals. 
 
 No significant difference in project costs between Approved and Rejected Projects.
 
+## PreProcessing Text features:
+
+**Categorical features:** <br>
+1. Features like project_grade_category, project_subject_categories, teacher_prefix, project_subject_subcategories, school_state are cleaned to minimize the redundancy in category names. <br>
+2. Features like project_title, project_essay_1, project_essay_2, project_essay_3, project_essay_4, advanced text processing is performed as they can contain multiple words and/or sentences. Few such examples are, <br>
+   a. Using a custom stop word list to remove words that are of no value <br>
+   b. Decontracting phrases to actual phrases. For example, after decontraction of a word like **I'll**, we obtain **I will** <br>
+
+**Numerical features:**
+Numerical features like price and quantity are available in 'resources.csv' which need to first aggregated by resource_id before merging with preprocessed text data. <br>
+Standard scaler and MinMax scaler are then used to normalize these numerical values. <br>
+
 
 
 
