@@ -115,11 +115,11 @@ ROC AUC and F1 score are considered as evaluation metrics for comparing performa
 <table>
   <tr>
     <td>
-      <div align="center"><img width="282" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/aba9528f-5b68-40b3-afdb-3fd3ebaa768c" alt="Roc AUC for BoW Encoding"/></div>
+      <img width="282" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/aba9528f-5b68-40b3-afdb-3fd3ebaa768c" alt="Roc AUC for BoW Encoding"/>
       <div align="center">Roc AUC for BoW Encoding</div>
     </td>
     <td>
-      <div align="center"><img width="287" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/f4a5c715-a918-455a-af8d-97dcbb2822f7" alt="Roc AUC for TfIDF Encoding"/></div>
+      <img width="287" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/f4a5c715-a918-455a-af8d-97dcbb2822f7" alt="Roc AUC for TfIDF Encoding"/>
       <div align="center">Roc AUC for TfIDF Encoding</div>
     </td>
   </tr>
@@ -128,8 +128,28 @@ ROC AUC and F1 score are considered as evaluation metrics for comparing performa
 
 **F1 Score Comparison:** <br>
 
+<table>
+  <tr>
+    <td>
+      <img width="269" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/0ae2b140-b697-4491-b614-4df6b0ea1780" alt="Confusion Matrix for BoW"/>
+      <div align="center">Roc AUC for BoW Encoding</div>
+    </td>
+    <td>
+      <img width="264" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/d6284f87-88c6-475e-bc57-734086d76736" alt="Confusion Matrix for TfIdf"/>
+      <div align="center">Roc AUC for TfIDF Encoding</div>
+    </td>
+  </tr>
+</table>
+
+F1 Score for BoW Encoding: 0.8266
+F1 Score for TfIdf Encoding: 0.9136
 
 ## Final Conclusion:
+
+| Vectorizer | Model | Hyperparameter | Test AUC | Test F1-score |
+|----------|:--------:|---------:|---------:|---------:|
+| BoW   | Multinomial NB   | 10   | 0.688   | 0.823   |
+| TfIdf   | Nultinomial NB   | 1   | 0.668   | 0.914   |
 
 
 
