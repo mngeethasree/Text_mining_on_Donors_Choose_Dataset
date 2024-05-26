@@ -1,5 +1,3 @@
-<img width="408" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/45aaad5e-d57b-4ce4-910a-588180f00239"># Text_mining_on_Donors_Choose_Dataset
-
 ## Background:
 DonorsChoose.org receives hundreds of thousands of project proposals each year for classroom projects in need of funding. Inorder to mitigate the issue of manual screening by large number of volunteers, a machine learning model can be leveraged to identify projects most likely to need further review before approval.
 
@@ -98,7 +96,7 @@ Our problem is a binary classification problem. A Naive Bayes Classifier is used
 
 Considering the gap between Train and Validation AUC scores, we chose best value of alpha to be 10 for BoW encoded features <br>
 
-**Hyperparameter tuning(alpha) for BoW Encoded Data:** <br>
+**Hyperparameter tuning(alpha) for TfIdf Encoded Data:** <br>
 <div align="center"><img width="408" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/ec6a52c6-db08-4cc0-a014-ea476c4e6944"></div> <br>
 
 Considering the gap between Train and Validation AUC scores, we chose best value of alpha to be 1 for TfIdf encoded features <br>
