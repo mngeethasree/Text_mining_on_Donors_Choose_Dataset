@@ -86,7 +86,7 @@ TfIdf encoding is achieved using TfidfVectorizer from sklearn. <br>
 
 Since it is possible for a term to not appear in the corpus at all, leading to denominator zeroing out. Hence a slight correction is made by adding 1 to both numerator and denominator in the formula. <br>
 
-<img width="185" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/9905fae9-b4ff-4871-b3ab-85f4050c08f6"> <br>
+<div align="center"><img width="185" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/9905fae9-b4ff-4871-b3ab-85f4050c08f6"></div> <br>
 
 
 
