@@ -1,4 +1,4 @@
-# Text_mining_on_Donors_Choose_Dataset
+<img width="408" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/45aaad5e-d57b-4ce4-910a-588180f00239"># Text_mining_on_Donors_Choose_Dataset
 
 ## Background:
 DonorsChoose.org receives hundreds of thousands of project proposals each year for classroom projects in need of funding. Inorder to mitigate the issue of manual screening by large number of volunteers, a machine learning model can be leveraged to identify projects most likely to need further review before approval.
@@ -88,7 +88,33 @@ Since it is possible for a term to not appear in the corpus at all, leading to d
 
 <div align="center"><img width="185" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/9905fae9-b4ff-4871-b3ab-85f4050c08f6"></div> <br>
 
+A comparison of these two encoding techniques can help understand which one suits the data better.
 
+## Modeling:
+Our problem is a binary classification problem. A Naive Bayes Classifier is used to classify the training dataset as it is known to perform well on text features. The hyperparameter for Naive Bayes is alpha (Additive/Laplace smoothing parameter) which needs to be optimized before fitting our final model. Since the optimal value of alpha could be different for data encoded with different techniques, we perform hyperparameter tuning seperately for both encodings. ROC AUC is chosen as model evaluation metric while performing hyper parameter tuning.
+
+**Hyperparameter tuning(alpha) for BoW Encoded Data:** <br>
+<div align="center"><img width="438" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/33457328-1e4e-4599-be4f-5cb3e142e043"></div> <br>
+
+Considering the gap between Train and Validation AUC scores, we chose best value of alpha to be 10 for BoW encoded features <br>
+
+**Hyperparameter tuning(alpha) for BoW Encoded Data:** <br>
+<div align="center"><img width="408" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/ec6a52c6-db08-4cc0-a014-ea476c4e6944"></div> <br>
+
+Considering the gap between Train and Validation AUC scores, we chose best value of alpha to be 1 for TfIdf encoded features <br>
+
+## Performance Comparison of BoW and TfIdf encoding techniques:
+ROC AUC and F1 score are considered as evaluation metrics for comparing performannce of Naive Bayes on both the encodings <br>
+
+**Roc AUC Comparison:** <br>
+Roc AUC for BoW Encoding <img width="282" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/aba9528f-5b68-40b3-afdb-3fd3ebaa768c">
+Roc AUC for TfIDF ENcoding <img width="287" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/f4a5c715-a918-455a-af8d-97dcbb2822f7">
+
+
+**F1 Score Comparison:** <br>
+
+
+## Final Conclusion:
 
 
 
