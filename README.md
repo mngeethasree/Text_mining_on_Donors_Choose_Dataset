@@ -29,27 +29,27 @@ This project aims to predict if a project proposal submitted by a teacher will b
 
 **1. Percentage of proposals accepted:** <br>
 
-<img width="330" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/78888a2e-f58c-4dd8-859f-319b2d86f0d0">
-<img width="375" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/d3f56d7f-3d3d-404c-959f-c4c03e95f6cf"> <br>
+<div align="center"><img width="330" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/78888a2e-f58c-4dd8-859f-319b2d86f0d0"></div>
+<div align="center"><img width="375" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/d3f56d7f-3d3d-404c-959f-c4c03e95f6cf"></div> <br>
 
 Only **~15%** of the proposals are not approved for funding. 
 
 **2. Percentage of approved proposals displayed at state level:** <br>
 
-<img width="533" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/a9d2e97a-b2bf-4a49-a6d7-c21859eb0932"> <br>
+<div align="center"><img width="533" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/a9d2e97a-b2bf-4a49-a6d7-c21859eb0932"></div> <br>
 
 Proposals from california state have higher approval rates than other states. <br>
 
 **3. Word Count of Project title in Approved vs Rejected Projects:** <br>
 
-<img width="242" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/a6e8635f-d74b-4974-8d99-89fdf39cdea9"> <br>
-<img width="387" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/03b2dfa4-4470-411b-a979-af283a6b7dd7"> <br>
+<div align="center"><img width="242" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/a6e8635f-d74b-4974-8d99-89fdf39cdea9"></div> <br>
+<div align="center"><img width="387" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/03b2dfa4-4470-411b-a979-af283a6b7dd7"></div> <br>
 
 Approved proposals have slightly longer project titles than Rejected proposals. <br>
 
 **3. Cost of project comparison for Approved vs Rejected Projects:** <br>
 
-<img width="377" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/cb755979-5bfa-4808-b087-cc446135b108"> <br>
+<div align="center"><img width="377" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/cb755979-5bfa-4808-b087-cc446135b108"></div> <br>
 
 No significant difference in project costs between Approved and Rejected Projects.
 
