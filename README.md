@@ -115,11 +115,11 @@ ROC AUC and F1 score are considered as evaluation metrics for comparing performa
 <table>
   <tr>
     <td>
-      <div align="center"><img width="282" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/aba9528f-5b68-40b3-afdb-3fd3ebaa768c" alt="Roc AUC for BoW Encoding"/>
+      <div align="center"><img width="282" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/aba9528f-5b68-40b3-afdb-3fd3ebaa768c" alt="Roc AUC for BoW Encoding"/></div>
       <div align="center">Roc AUC for BoW Encoding</div>
     </td>
     <td>
-      <img width="287" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/f4a5c715-a918-455a-af8d-97dcbb2822f7" alt="Roc AUC for TfIDF Encoding"/></div>
+      <div align="center"><img width="287" alt="image" src="https://github.com/mngeethasree/Text_mining_on_Donors_Choose_Dataset/assets/68059811/f4a5c715-a918-455a-af8d-97dcbb2822f7" alt="Roc AUC for TfIDF Encoding"/></div>
       <div align="center">Roc AUC for TfIDF Encoding</div>
     </td>
   </tr>
